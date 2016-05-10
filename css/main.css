@@ -1,0 +1,202 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#banner{
+  background-image: url("../img/medmixer.jpeg");
+  background-attachment: fixed;
+  height: 670px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  position: relative;
+  float: left;
+}
+
+.banner_cont{
+  float: left;
+  width: 100%;
+  height: 325px;
+  margin-top: 13%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner_cont h1 {
+  font-family: monospace;
+  text-align: center;
+  color: white;
+  padding-top: 56px;
+  font-family: 'poiret one', cursive;
+}
+
+.banner_cont h3{
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'poiret one', cursive;
+}
+
+.banner_cont button{
+  height: 40px;
+  width: 100px;
+  margin: 66px 615px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+  color: white;
+  font-family: 'poiret one',cursive;
+  font-size: 14pt;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: #D9D0CF;
+  position: relative;
+}
+
+.ahline{
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin-top: 15px;
+}
+
+.logo{
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.logo h1 {
+  text-align: left;
+  padding: 0px 60px;
+  margin-top: -8px;
+  bottom: 20px;
+  font-family: 'pacifico', sans-serif;
+}
+
+.menu{
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.menu li{
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding: 0px 10px;
+  bottom: 33.5px;
+  right: 20px;
+  font-family: 'codystar', cursive;
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+.menu ul{
+  position: relative;
+  top: 27px;
+}
+
+.bhline{
+  height: 2px;
+  width: 100%;
+  background: black;
+  margin-top: 37px;
+}
+
+#about-info{
+  float: left;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-color: #7D7978;
+  border: 1px;
+}
+
+.img-box{
+  float: left;
+  height: 100%;
+  width: 35%;
+}
+
+.img-box img{
+  width:77%;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.about-content{
+  margin-top: 48px;
+  float: left;
+  height: 70%;
+  width: 60%;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 70%;
+}
+
+.about-content h1{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'condiment', cursive;
+  font-size: 27pt;
+}
+
+.about-content p {
+  text-align: center;
+}
+
+#skills{
+  height: 600px;
+  width: 100%;
+  background-image: url('../img/medmixer.jpeg');
+  background-attachment: fixed;
+  float: left;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.skills-container{
+  height: 75%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin: 50px 30px;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+#skills article h1{
+  text-align: center;
+  font-family: 'condiment', cursive;
+  color: white;
+  font-size: 20pt;
+}
+
+#skills article p{
+  color: white;
+}
